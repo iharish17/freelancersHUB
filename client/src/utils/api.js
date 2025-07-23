@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL:"https://freelancershub.onrender.com",
+  baseURL:"https://freelancershub.onrender.com/api",
   withCredentials: true,
 });
 
