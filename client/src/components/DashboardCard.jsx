@@ -6,7 +6,7 @@ const DashboardCard = ({
   title,
   subtitle,
   link,
-  linkLabel = "View More →", // default fallback
+  linkLabel,
   color = "indigo",
 }) => (
   <div className={`bg-${color}-100 text-${color}-800 rounded-xl shadow-md p-6 hover:shadow-lg transition`}>
