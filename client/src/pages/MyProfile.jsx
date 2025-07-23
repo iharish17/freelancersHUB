@@ -83,6 +83,7 @@ const MyProfile = () => {
           bgColor="bg-sky-100"
           textColor="text-sky-800"
           linkColor="text-sky-500"
+          linkLabel="Check Your Gigs"
         />
         <DashboardCard
           icon={<FaPlus size={28} />}
@@ -92,15 +93,17 @@ const MyProfile = () => {
           bgColor="bg-purple-100"
           textColor="text-purple-800"
           linkColor="text-purple-500"
+          linkLabel="Create"
         />
         <DashboardCard
           icon={<FaChartLine size={28} />}
-          title="Orders & Earnings"
+          title="Orders"
           subtitle="Track your orders"
           link="/orders"
           bgColor="bg-teal-100"
           textColor="text-teal-800"
           linkColor="text-teal-500"
+          linkLabel="Check Your Orders"
         />
         <DashboardCard
           icon={<FaComments size={28} />}
@@ -110,6 +113,7 @@ const MyProfile = () => {
           bgColor="bg-blue-100"
           textColor="text-blue-800"
           linkColor="text-blue-500"
+          linkLabel="Open Chat"
         />
       </div>
     </div>
