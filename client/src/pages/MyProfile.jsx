@@ -121,13 +121,13 @@ const MyProfile = () => {
 };
 
 // ✅ Reusable Card Component with color props
-const DashboardCard = ({ icon, title, subtitle, link, bgColor, textColor, linkColor }) => (
+const DashboardCard = ({ icon, title, subtitle, link, bgColor, textColor, linkColor, linkLabel }) => (
   <div className={`rounded-xl shadow-md p-6 hover:shadow-lg transition ${bgColor} ${textColor}`}>
     <div className="mb-3">{icon}</div>
     <h3 className="text-lg font-semibold text-gray-800">{title}</h3>
     <p className="text-sm text-gray-600 mb-2">{subtitle}</p>
     <Link to={link} className={`text-sm font-medium hover:underline ${linkColor}`}>
-      View More →
+      {linkLabel}
     </Link>
   </div>
 );
