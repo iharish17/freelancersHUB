@@ -34,7 +34,7 @@ const Navbar = () => {
           to="/"
           className="text-2xl font-extrabold text-white hover:scale-105 transition-transform duration-300 "
         >
-          FreelanceHUB
+          FreelancersHUB
         </Link>
 
         {/* Desktop Nav */}
