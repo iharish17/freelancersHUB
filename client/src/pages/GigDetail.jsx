@@ -70,7 +70,7 @@ const GigDetail = () => {
         {/* ✅ Creator */}
         <p className="text-sm text-gray-500 mb-2">
           Published By{" "}
-          <span className="font-medium"><strong>{gig.userId?.name || "Freelancer"}</strong></span>
+          <span className="font-medium text-sm"><strong>{gig.userId?.name || "Freelancer"}</strong></span>
         </p>
 
         {/* ✅ Rating */}
