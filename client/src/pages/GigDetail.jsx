@@ -1,4 +1,4 @@
-⁸import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import API from "../utils/api";
 import { FaStar } from "react-icons/fa";
@@ -70,7 +70,7 @@ const GigDetail = () => {
         {/* ✅ Creator */}
         <p className="text-sm text-gray-500 mb-2">
           Published By{" "}
-          <span className="font-bold">{gig.userId?.name || "Freelancer"}</span>
+          <span className="font-bold"><strong>{gig.userId?.name || "Freelancer"}</strong></span>
         </p>
 
         {/* ✅ Rating */}
