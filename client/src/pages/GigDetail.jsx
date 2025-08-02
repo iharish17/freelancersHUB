@@ -68,7 +68,7 @@ const GigDetail = () => {
         <p className="text-green-600 font-semibold text-lg mb-2">₹{gig.price}</p>
 
         {/* ✅ Creator */}
-        <p className="text-sm text-gray-500 mb-2">
+        <p className="text-sm text-black-500 mb-2">
           Published By{" "}
           <span className="font-medium text-sm"><strong>{gig.userId?.name || "Freelancer"}</strong></span>
         </p>
