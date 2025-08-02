@@ -85,7 +85,7 @@ const GigDetail = () => {
           </div>
         )}
 
-        {/* ✅ Action Buttons */}
+
         <div className="flex flex-wrap gap-3 mt-5">
           {/* Order Button (for client only) */}
           {loggedInUser?._id !== gig.userId?._id && loggedInUser?.role === "client" && (
@@ -99,7 +99,7 @@ const GigDetail = () => {
 
           {/* Chat with Freelancer */}
           <a
-  href={`mailto:${gig.userId.email}?subject=Interested%20in%20your%20gig&body=Hi%20there,%20I%20found%20your%20gig%20interesting...`}
+  href={`mailto: harishk3445@gmail.com?subject=Interested%20in%20your%20gig&body=Hi%20there,%20I%20found%20your%20gig%20interesting...`}
   className="px-5 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700 transition inline-block"
 >
   Email Freelancer
