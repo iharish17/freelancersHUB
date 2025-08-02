@@ -98,14 +98,12 @@ const GigDetail = () => {
           )}
 
           {/* Chat with Freelancer */}
-          {gig?.userId?._id && loggedInUser?._id && loggedInUser.role === "client" &&(
-            <button
-              onClick={() => navigate(`/chat/${gig.userId._id}`)}
-              className="px-5 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700 transition"
-            >
-              Chat with Freelancer
-            </button>
-          )}
+          <a
+  href={`mailto:${gig.userId.email}?subject=Interested%20in%20your%20gig&body=Hi%20there,%20I%20found%20your%20gig%20interesting...`}
+  className="px-5 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700 transition inline-block"
+>
+  Email Freelancer
+</a>
 
           {/* View Public Profile */}
           {gig?.userId?._id && (
