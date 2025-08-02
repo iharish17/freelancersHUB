@@ -122,7 +122,7 @@ const FreelancerProfile = () => {
                 <p className="text-sm text-gray-600 mt-1 line-clamp-2">
                   {gig.description}
                 </p>
-                <p className="mt-2 text-indigo-600 font-bold">₹{gig.price}</p>
+                <p className="mt-2 text-green-600 font-bold">₹{gig.price}</p>
                 <Link
                  to={
                      user.role === "freelancer"? "/my-gigs" : `/gigs/${gig._id}`  }
