@@ -60,12 +60,12 @@ const FreelancerProfile = () => {
             <p className="text-sm text-gray-600">{freelancer?.email}</p>
 
             {user && user._id !== id && (
-              <Link
-                to={`/messages/${id}`}
-                className="mt-1 inline-block px-3 py-1 bg-indigo-600 text-white rounded hover:bg-indigo-700 text-sm transition"
-              >
-                Chat Now
-              </Link>
+                        <a
+  href={`mailto: harishk3445@gmail.com?subject=Interested%20in%20your%20gig&body=Hi%20there,%20I%20found%20your%20gig%20interesting...`}
+  className="px-5 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700 transition inline-block"
+>
+  Email Freelancer
+</a>
             )}
           </div>
         </div>
