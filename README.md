@@ -69,3 +69,19 @@ Chat & real-time communication
 Admin panel
 Freelancer verification system.
 
+
+Installation & Setup:
+# Clone the repository
+git clone https://github.com/your-username/freelancer-marketplace.git
+
+# Navigate to project directory
+cd freelancer-marketplace
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
+
+
