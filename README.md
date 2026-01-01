@@ -72,10 +72,10 @@ Freelancer verification system.
 
 Installation & Setup:
 # Clone the repository
-git clone https://github.com/your-username/freelancer-marketplace.git
+git clone https://github.com/iharish17/freelancersHUB.git
 
 # Navigate to project directory
-cd freelancer-marketplace
+cd freelancersHUB
 
 # Install dependencies
 npm install
