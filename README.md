@@ -82,6 +82,20 @@ npm install
 
 # Start development server
 npm start
+The app will run on: 
+http://localhost:3000
 
+📌 Usage
+Register as Client or Freelancer
+Clients browse services and freelancers
+Freelancers manage services via dashboard
+Structured interaction without direct messaging
+
+🤝 Contribution
+Contributions are welcome!
+Fork the repo
+Create a feature branch
+Commit your changes
+Open a pull request.
 
 
