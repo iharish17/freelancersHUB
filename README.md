@@ -85,13 +85,13 @@ npm start
 The app will run on: 
 http://localhost:3000
 
-📌 Usage
+📌 Usage:
 Register as Client or Freelancer
 Clients browse services and freelancers
 Freelancers manage services via dashboard
 Structured interaction without direct messaging
 
-🤝 Contribution
+🤝 Contribution:
 Contributions are welcome!
 Fork the repo
 Create a feature branch
