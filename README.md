@@ -41,4 +41,31 @@ CSS / Tailwind / Styled Components (based on implementation).
 
 Backend (Pluggable)
 Designed to integrate with any REST or GraphQL backend
-Supports future expansion (auth, payments, chat, orders)
+Supports future expansion (auth, payments, chat, orders).
+
+🔐 Authentication & Roles:
+Role-based UI rendering
+Protected routes for dashboards
+Scalable authentication logic (JWT / OAuth ready).
+
+🎯 Project Goals:
+Build a realistic freelancer marketplace UI
+Maintain clean separation of concerns
+Prepare a foundation for:
+Payments
+Orders
+Reviews & ratings
+Messaging (future)
+Suitable for:
+Hackathons
+Startup MVPs
+Resume & portfolio projects.
+
+🧪 Future Enhancements:
+Authentication backend integration
+Order & payment system
+Review and rating system
+Chat & real-time communication
+Admin panel
+Freelancer verification system.
+
